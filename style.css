@@ -23,3 +23,47 @@
     font-size: 20px;
     font-weight: 200;
 }
+
+input {
+    height: 100px;
+    width: 100%;
+    border: 1px solid #a5a5a5;
+    box-sizing: border-box;
+    font-size: 2em;
+}
+.flex {
+    display: flex;
+}
+.flex-column{
+	display: flex;
+	flex-direction: column;
+}
+
+.buttons > div {
+    background: #ebebeb;
+    border: 1px solid #a5a5a5;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons > div:active {
+    background: #7e7e7e;
+}
+.grid8{
+    grid-column-start: 4;
+    grid-row-start: 2;
+    grid-row-end: span 2;
+}
+.grid17{
+    grid-column-start: 4;
+    grid-row-start: 4;
+    grid-row-end: span 2;
+}
+.grid15{
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 5;
+    /* grid-row-end: span 2; */
+}
