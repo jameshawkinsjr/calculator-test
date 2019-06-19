@@ -5,3 +5,10 @@
     align-items: center;
     height: 100vh;
 }
+
+.calculator {
+    background: #ebebeb;
+    width: 400px;
+    height: 400px;
+    align-self: center;
+}
